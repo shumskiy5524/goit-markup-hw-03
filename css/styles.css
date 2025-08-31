@@ -90,6 +90,17 @@ letter-spacing: 0.02em;
 color: #434455;
 
 }
+
+
+
+
+.main-container{
+  width: 1440px;
+display: flex;
+  align-items: center;
+}
+
+
 .business-solutions-title{
   font-size: 56px;
    line-height:  1.07;
@@ -117,6 +128,8 @@ background-color: #404BBF;
   background-color: #404BBF;
 }
 .prioritets-section{
+  display: flex;
+  align-items: center;
 font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
@@ -125,7 +138,9 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .prioritets-list{
-  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 .prioritets-subtitle{
 font-weight: 500;
@@ -136,6 +151,8 @@ color: #2e2f42;
 }
 
 .prioritets-text{
+  padding:120px 0;
+  margin-right: 24px;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -161,7 +178,7 @@ text-transform: capitalize;
 .team-item{
 background: #fff;
 }
-.team-name{
+.team-name{ 
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -204,6 +221,10 @@ color: #434455;
 .page-footer{
   background-color:#2e2f42 ;
 }
+.footer-container{
+display: flex;
+  align-items: center;  
+}
  .footer-logo{
 font-weight: 700;
 font-size: 18px;
@@ -211,6 +232,8 @@ line-height: 1,7;
 letter-spacing: 0.03em;
  text-transform: uppercase;
 color: #4d5ae5;
+display: inline-block;
+margin-bottom: 16px;
  }
 .footer-logo .logo-part{
 color: #f4f4fd
