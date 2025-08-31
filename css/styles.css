@@ -90,15 +90,6 @@ letter-spacing: 0.02em;
 color: #434455;
 
 }
-
-
-
-
-.main-container{
-  width: 1440px;
-display: flex;
-  align-items: center;
-}
 .visually-hidden {
  position: absolute;
  width: 1px;
@@ -233,10 +224,6 @@ color: #434455;
 }
 .page-footer{
   background-color:#2e2f42 ;
-}
-.footer-container{
-display: flex;
-  align-items: center;  
 }
  .footer-logo{
 font-weight: 700;
