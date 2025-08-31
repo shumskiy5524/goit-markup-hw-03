@@ -99,7 +99,18 @@ color: #434455;
 display: flex;
   align-items: center;
 }
-
+.visually-hidden {
+ position: absolute;
+ width: 1px;
+ height: 1px;
+ margin: -1px;
+ border: 0;
+ padding: 0;
+ white-space: nowrap;
+ clip-path: inset(100%);
+ clip: rect(0 0 0 0);
+ overflow: hidden;
+}
 
 .business-solutions-title{
   font-size: 56px;
@@ -110,6 +121,7 @@ display: flex;
     color: #ffffff;
    background-color: #2e2f42 ;
 }
+
 .order-button 
   {
  font-family: inherit;
@@ -124,9 +136,7 @@ display: flex;
 .order-button:focus {
 background-color: #404BBF;
 }
-.order-button:hover{
-  background-color: #404BBF;
-}
+
 .prioritets-section{
   display: flex;
   align-items: center;
@@ -162,6 +172,7 @@ color: #434455;
  .team-section {
 background: #f4f4fd
  }
+ 
 .section-title{
   font-family: "Roboto", sans-serif;
 font-weight: 700;
@@ -174,6 +185,7 @@ text-transform: capitalize;
 }
 .team-list{
   list-style: none;
+  display: block;
 }
 .team-item{
 background: #fff;
@@ -201,6 +213,7 @@ color: #434455;
 .portfolio-list {
   list-style: none;
   margin: 0;
+  display: block;
 }
 .portfolio-title {
   font-weight: 500;
@@ -232,14 +245,15 @@ line-height: 1,7;
 letter-spacing: 0.03em;
  text-transform: uppercase;
 color: #4d5ae5;
-display: inline-block;
-margin-bottom: 16px;
  }
 .footer-logo .logo-part{
+  display: inline-block;
 color: #f4f4fd
 }
 
 .footer-text{
+  margin: 16px;
+  padding: 100px 0;
   line-height: 1.5;
   color:#F4F4FD;
   letter-spacing: 0.02em;
