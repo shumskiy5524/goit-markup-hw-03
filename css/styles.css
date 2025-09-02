@@ -178,7 +178,8 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .container-team{
-
+display: flex;
+  align-items: center;
 }
  .team-section {
 background: #f4f4fd
@@ -264,6 +265,8 @@ display: flex;
   background-color:#2e2f42 ;
 }
  .footer-logo{
+  display: inline-block;
+  margin-bottom: 16px;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.7;
