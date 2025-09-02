@@ -186,7 +186,12 @@ background: #f4f4fd
  }
  
 .section-title{
+  display: block;
   margin-bottom: 72px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  max-width: 496px;
+  margin: 0px;
   font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
@@ -246,7 +251,10 @@ display: flex;
 
 }
 .portfolio-title {
-  margin-bottom: 8px 
+  padding-top: 32px;
+  padding-bottom: 64px;
+  padding-right: 16px;
+  margin: 8px 
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
