@@ -101,13 +101,62 @@ color: #434455;
 
 }
 .hero {
-  background-color: #2e2f42;
+  
   text-align: center;
   padding: 188px 0;
   color: #fff;
-  padding: 188px 0;
+}
+.page-business-solutions{
+  background: #2e2f42;
+}
+.business-solutions-title{
+  gap: 24px;
+  padding: 188 0;
+  max-width: 496px;
+  margin: 0 auto 48px;
+  font-size: 56px;
+   line-height:  1.07;
+   text-align: center;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+    background: #2e2f42;
 }
 
+
+.order-button 
+  {
+    margin: auto;
+    display: block;
+    cursor: pointer;
+  min-width: 169px;
+  border: none;
+  border-radius: 4px;
+  height: 56px;
+ font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4d5ae5;
+  color: #fff;
+
+  }
+.order-button:focus {
+background-color: #404BBF;
+}
+
+.prioritets-section{
+  padding: 120px 0;
+  display: flex;
+  align-items: center;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
 .visually-hidden {
  position: absolute;
  width: 1px;
@@ -120,46 +169,6 @@ color: #434455;
  clip: rect(0 0 0 0);
  overflow: hidden;
 }
-
-.business-solutions-title{
-  max-width: 496px;
-  margin: 0 auto 48px;
-  font-size: 56px;
-   line-height:  1.07;
-   text-align: center;
-   letter-spacing: 0.02em;
-   text-transform: capitalize;
-}
-
-.order-button 
-  {
- font-family: inherit;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background-color: #4d5ae5;
-  cursor: pointer;
-  min-width: 169px;
-  border: none;
-  border-radius: 4px;
-  height: 56px;
-  }
-.order-button:focus {
-background-color: #404BBF;
-}
-.prioritets-section{
-  padding: 120px 0;
-  display: flex;
-  align-items: center;
-font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-}
 .prioritets-list{
   padding: 188px 0;
   display: flex;
@@ -167,11 +176,12 @@ color: #434455;
   gap: 20px;
 }
 .prioritets-subtitle {
-  margin-bottom: 8px;
+  margin-bottom: 8px; 
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  
 }
 
 .prioritets-text {
@@ -187,6 +197,7 @@ color: #434455;
 }
 
 .section-title {
+  padding: 32px 0;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
