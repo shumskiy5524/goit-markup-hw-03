@@ -18,7 +18,7 @@ body {
     padding: 0;
  }
  
-h1, h2, h3, p {
+h1, h2, h3, h4, h5, h6, p {
 margin: 0;
 }
  a{
@@ -100,18 +100,17 @@ letter-spacing: 0.02em;
 color: #434455;
 
 }
-.hero {
-  
+
+ 
+.hero-business-solutions{
   text-align: center;
   padding: 188px 0;
   color: #fff;
-}
-.page-business-solutions{
+  padding: 188px 0;
   background: #2e2f42;
 }
 .business-solutions-title{
-  gap: 24px;
-  padding: 188 0;
+ gap: 24px;
   max-width: 496px;
   margin: 0 auto 48px;
   font-size: 56px;
@@ -119,7 +118,7 @@ color: #434455;
    text-align: center;
    letter-spacing: 0.02em;
    text-transform: capitalize;
-    background: #2e2f42;
+    
 }
 .order-button 
   {
@@ -143,18 +142,6 @@ background: #4d5ae5;
 .order-button:focus {
 background-color: #404BBF;
 }
-
-.prioritets-section{
-  padding: 120px 0;
-  display: flex;
-  align-items: center;
-font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-}
 .visually-hidden {
  position: absolute;
  width: 1px;
@@ -167,13 +154,29 @@ color: #434455;
  clip: rect(0 0 0 0);
  overflow: hidden;
 }
-.prioritets-list{
-  padding: 188px 0;
+
+.prioritets-section{
+  text-align: center;
+  padding: 120px 0;
   display: flex;
   align-items: center;
-  gap: 20px;
+  flex-direction: column;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
-.prioritets-subtitle {
+
+.prioritets-list{
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.prioritets-subtitle-hero {
+    
   margin-bottom: 8px; 
   font-weight: 500;
   font-size: 20px;
@@ -183,6 +186,7 @@ color: #434455;
 }
 
 .prioritets-text {
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
