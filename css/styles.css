@@ -217,7 +217,7 @@ color: #434455;
   padding: 32px 0 ;
 }
 .team-name{ 
-  text-align: center;
+  
   margin-bottom: 8px;
 font-weight: 500;
 font-size: 20px;
@@ -244,11 +244,11 @@ display: flex;
   background-color: #fff;
   padding: 120px 0;
 }
-.portfolio-list {
-  row-gap: 48px; 
+.portfolio-list{ 
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 .portfolio-card{
    padding: 32px 16px;
@@ -258,7 +258,6 @@ display: flex;
 .portfolio-title {
   margin-bottom: 8px;
   margin-bottom: 72px;
-  margin: 8px 0 4px;
   font-size: 20px;
   font-weight: 500;
   color: #2e2f42;
