@@ -156,11 +156,8 @@ background-color: #404BBF;
 }
 
 .prioritets-section{
-  text-align: center;
   padding: 120px 0;
   display: flex;
-  align-items: center;
-  flex-direction: column;
 font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
@@ -170,23 +167,20 @@ color: #434455;
 }
 
 .prioritets-list{
-  padding: 0;
   display: flex;
-  align-items: center;
   gap: 24px;
 }
-.prioritets-subtitle-hero {
-    
+.prioritets-item{
+  width: calc((100% - 72px) / 4);
+}
+.prioritets-subtitle-hero { 
   margin-bottom: 8px; 
-  font-weight: 500;
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   color: #2e2f42;
-  
 }
-
 .prioritets-text {
-  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
@@ -198,12 +192,13 @@ color: #434455;
   text-align: center;
 }
 
-.section-title {
+.team-title {
+  margin-bottom: 72px;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   color: #2e2f42;
-  margin-bottom: 72px;
+  text-align: center;
   text-transform: capitalize;
 }
 .team-list {
@@ -213,13 +208,12 @@ color: #434455;
   list-style: none;
 }
 
-.team-item {
+.team-item {  
   background: #fff;
    border-radius: 0 0 4px 4px;
    padding-bottom: 32px;
 }
 .team-name{ 
-  margin-top: 32px;
   margin-bottom: 8px;
 font-weight: 500;
 font-size: 20px;
@@ -253,6 +247,11 @@ display: flex;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+}
+.portfolio-card{
+   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-title {
   margin: 8px 0 4px;
